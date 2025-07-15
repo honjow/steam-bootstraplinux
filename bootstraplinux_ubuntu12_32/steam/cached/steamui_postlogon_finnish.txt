@@ -1,0 +1,41 @@
+﻿"lang" {
+"Language" "finnish" 
+"Tokens" 
+{ 
+"Steam_TellTale_EmailPrompt"	"Pelin %subscription% julkaisija Telltale haluaa olla yhteydessä sinuun. Antamalla sähköpostiosoitteesi alla voi tilata Telltalen uutiskirjeen, joka sisältää uusia pelijulkistuksia, katsauksia pelinkehittämisen kulissien taakse, sarjakuvia, ruoanlaitto- ja kyselypalstoja ja toisinaan erikoistarjouksia. Kannattaa ehdottomasti tilata!"
+
+"Steam_Football2K9_EmailPrompt"	"SEGA, %subscription% -pelin julkaisija, haluaa tarjota sinulle erikoisalennuksen Subside Sports -kaupasta kiitokseksi ostoksestasi. Kirjoita sähköpostiosoitteesi alla olevaan kenttään ja saat alennuskupongin, jolla saat 10 % alennuksen mistä tahansa Subside Sports -verkkokaupan tuotteesta."
+
+"Steam_TwoTribes_EmailPrompt"	"Jos haluat pysyä kärryillä Two Tribesin kuulumisista, voit tilata uutiskirjeemme. Kirjoita sähköpostiosoitteesi sille varattuun kenttään, ja saat jatkossa säännöllisesti uutisia upeista peleistämme!"
+
+
+"charity_title" "Sid Meier's Civilization V"
+
+"charity_imagetext" "Annamme takaisin"
+
+"charity_header" "2K Games on lahjoittamassa yhteensä $250 000 neljälle opetuspohjaiselle hyväntekeväisyyskohteelle, ja rahojen levittämisestä päättävät käyttäjät valinnoillaan. Laskemme asiakkaidemme äänet ja jaamme rahat aivan kuten te olette neuvoneet. Toivotamme myös tervetulleeksi NVIDIA Foundationin, joka ovat liittymässä hankkeeseemme mukaan lahjoittamalla ylimääräiset $20 000."
+
+"charity_choice"	"Mitä hyväntekeväisyyskohdetta haluaisit tukea?"
+
+"charity_asia"		"Central Asia Institute"
+"charity_asia_details"	"Central Asia Institute edistää ja tukee yhteisöpohjaista koulutusta, erityisesti tytöille, Pakistanissa ja Afganistanissa. Olemme auttaneet yli 150 koulun perustamisessa ja antaneet opiskelumahdollisuudet 64 000 oppilaalle. Saat lisätietoa Central Asia Institutesta tai Pennies for Peacesta soittamalla meille numeroon 406-585-7841 tai vierailemalla osoitteessa www.ikat.org. Nimiä Central Asia Institute ja Pennies for Peace käytetään järjestöjen luvalla, mikä ei millään tavalla tue, suoraan ilmaistuna tai vihjailtuna, mitään tuotetta, palvelua, yritystä tai yksityistä henkilöä."
+
+"charity_schools"	"Building Schools for Africa"
+"charity_schools_details" "Building Schools for Africa on pieni humanitaariyhdistys, joka uskoo, että paras tapa auttaa ihmisiä pääsemään eroon köyhyydestä, taudeista ja hyväksikäytöstä on opetuksen kautta. Rakentamissamme kouluissa on saatavilla puhdasta vettä ja siistit vessat. Sen lisäksi jaamme työkaluja ja siemeniä Kamerunin maalaisosissa, joissa maanviljelijäperheet tienaavat vain noin $1 viikossa. Voimme tehdä kaiken tämän vain $20 000:lla per koulu, ja koska me maksamme omat kustannuksemme, jokainen sentti menee koulujen rakentamiseen ilman pienintäkään vähennystä. Kiitos avustasi."
+
+"charity_read"		"Room to Read®"
+"charity_read_details"	"Room to Read® pyrkii muuttamaan miljoonien lasten elämät keskittymällä lukutaitoon ja sukupuolien väliseen tasa-arvoon opetuksessa. Työskentelemällä yhteistyössä paikallisten yhteisöjen, yhteisökumppanien ja hallitusten kanssa, kehitämme lukutaitoa ja lukemisen yleisyyttä peruskoulun oppilaiden keskuudessa, ja varmistamme, että tytöillä on tuki ja taidot suorittaa toisen asteen koulutus loppuun asti. Lisätietoja saatavilla osoitteessa www.roomtoread.org."
+
+"charity_scholarship"	"Scholarship America®"
+"charity_scholarship_details"	"Scholarship America® on kansainvälinen opetuspalvelujärjestö, joka tukee oppilaita auttamalla heitä pääsemään korkeakouluun ja valmistumaan sieltä. Meillä on kolme ydinohjelmaa, jotka auttavat saavuttamaan tavoitteemme: Dollars for Scholars®, Scholarship Management Services®, ja Dreamkeepers. Scholarship America on vuodesta 1958 asti jakanut yhteensä jo yli kaksi miljardia dollaria opetustukeen yli 1,7 miljoonalle oppilaalle. Lisätietoa saatavilla osoitteessa www.scholarshipamerica.org."
+
+"charity_footer"	"Äänestys sulkeutuu keskiyöllä 31. joulukuuta 2010. Vain yksi ääni per asiakas. Ei voimassa kaikilla alueilla. Lisätietoa The NVIDIA Foundationista saat osoitteesta"
+"charity_footer_link"	"http://www.nvidia.com/object/corporate_community.html"
+
+"charity_launchgame"	"Käynnistä peli"
+
+
+
+
+}
+}

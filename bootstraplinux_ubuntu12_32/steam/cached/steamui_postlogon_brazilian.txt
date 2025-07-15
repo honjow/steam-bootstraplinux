@@ -1,0 +1,41 @@
+﻿"lang" {
+"Language" "brazilian" 
+"Tokens" 
+{ 
+"Steam_TellTale_EmailPrompt"	"A Telltale, que distribui %subscription%, deseja manter contato com você. Informe o seu endereço de e-mail abaixo para assinar o boletim informativo da Telltale, que inclui anúncios de novos jogos, bastidores do processo de desenvolvimento, quadrinhos, colunas de conselho e culinária, além das ocasionais ofertas especiais. Você vai nos agradecer depois!"
+
+"Steam_Football2K9_EmailPrompt"	"A SEGA, que distribui %subscription%, gostaria de lhe oferecer um desconto especial na Subside Sports como agradecimento por sua compra. Digite seu endereço de e-mail abaixo para receber um cupom de 10% de desconto em qualquer produto disponível na loja online da Subside Sports."
+
+"Steam_TwoTribes_EmailPrompt"	"Se você quiser continuar ligado na Two Tribes você pode se inscrever em nosso boletim informativo. Simplesmente preencha seu endereço de e-mail e nós iremos providenciar para você atualizações regulares sobre todos os jogos legais que fazemos!"
+
+
+"charity_title" "Sid Meier's Civilization V"
+
+"charity_imagetext" "Retribuir"
+
+"charity_header" "A 2K Games está doando um total de $250.000 para quatro instituições de caridade na educação, e a escolha dos usuários determinará como o dinheiro será dividido. Contabilizaremos os votos dos clientes e dividiremos os fundos como vocês escolherem. Nós também agradecemos à NVIDIA Fundation, que está se juntando a nós nessa iniciativa, doando mais $20.000 para o programa."
+
+"charity_choice"	"Qual instituição de caridade você gostaria de ajudar?"
+
+"charity_asia"		"Central Asia Institute"
+"charity_asia_details"	"O Central Asia Institute promove e suporta a educação nas comunidade, especialmente para garotas, no Paquistão e Afeganistão. Nós ajudamos a estabelecer mais de 150 escolas e demos oportunidade de educação a mais de 64.000 estudantes. Para mais informações sobre o Central Asia Institute ou Pennies for Peace, ligue para 406-585-7841 ou visite www.ikat.org. Os nomes do Central Asia Institute e Pennies for Peace são usados com sua permissão, que de forma alguma endossa, implicitamente ou explicitamente, nenhum produto, serviço, compania ou indivíduo."
+
+"charity_schools"	"Building Schools for Africa"
+"charity_schools_details" "O Building Schools for Africa é uma pequena organização humanitária que acredita que a melhor forma de ajudar pessoas a se livrarem da pobreza, doenças e exploração é através da educação. Nós construimos escolas com água limpa, banheiros, ferramentas e sementes para cultivar comida na área rural de Camarões, onde as familias ganham algo em torno de $1 por semana nas fazendas. Nós podemos oferecer isso tudo por apenas $20.000 por escola e, porque nós pagamos nossas próprias despesas, cada centava que colhemos é gasto na construção de escolas, absolutamente sem deduções. Obrigado pela sua ajuda."
+
+"charity_read"		"Room to Read®"
+"charity_read_details"	"A Room to Read® busca transformar a vida de milhões de crianças nos países em desenvolvimento focando-se em alfabetização e igualdade entre os sexos na educação. Trabalhando em conjunto com as comunidades locais, parceiros e governos, nós desenvolvemos habilidades de leitura e o hábito de ler entre as crianças da escola primária e asseguramos que as garotas tenham as memsmas competências e o suporte necessário para completar a educação secundária. Saiba mais em www.roomtoread.org."
+
+"charity_scholarship"	"Scholarship America®"
+"charity_scholarship_details"	"A Scholarship America® é uma organização nacional de serviço de educação que mobiliza suporte para estudantes ingressando ou graduando-se na faculdade. Nós temos três programas centrais que nos ajudam a cumprir nossa missão: Dollars for Scholars®, Scholarship Management Services®, e Dreamkeepers. Scholarship America já distribuiu mais de $2 bilhões em assistência escolar para mais de 1.7 milhões de estudantes desde 1958. Mais informações disponíveis em www.scholarshipamerica.org."
+
+"charity_footer"	"Votação termina em 11:59PM EST no dia 31 de Dezembro de 2010. Um voto por usuário. Não é válido em todos os territórios. Para mais informações da Fundação NVIDIA visite"
+"charity_footer_link"	"http://www.nvidia.com/object/corporate_community.html"
+
+"charity_launchgame"	"Iniciar jogo"
+
+
+
+
+}
+}

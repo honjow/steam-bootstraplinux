@@ -1,0 +1,41 @@
+﻿"lang" {
+"Language" "norwegian" 
+"Tokens" 
+{ 
+"Steam_TellTale_EmailPrompt"	"Telltale, utgiveren av %subscription%, vil gjerne holde kontakten med deg. Skriv inn e-postadressen din under for å abonnere på Telltales nyhetsbrev som inneholder kunngjøringer om nye spill, innblikk bak kulissene under utviklingsprosessen, tegneserier, matoppskrifter og spørrespalter og spesialtilbud en gang i blant. Du kommer ikke til å angre!"
+
+"Steam_Football2K9_EmailPrompt"	"SEGA, utgiveren av %subscription%, ønsker å tilby deg en spesialrabatt hos Subside Sports som takk for ditt kjøp. Skriv inn e-postadressen din under for å motta en kupong med 10 % rabatt på alle produkter i Internett-butikken til Subside Sports."
+
+"Steam_TwoTribes_EmailPrompt"	"Hvis du vil holde kontakten med Two Tribes kan du skrive deg opp på vårt nyhetsbrev. Bare fyll inn din e-postadresse og vi vil holde deg oppdatert med alle spillene vi lager!"
+
+
+"charity_title" "Sid Meier's Civilization V"
+
+"charity_imagetext" "Gi tilbake"
+
+"charity_header" "2K Games donerer totalt $250,000 til fire veldedige organisasjoner som jobber med utdanning, og brukernes valg vil avgjøre hvordan pengene fordeles. Vi samler sammen brukernes stemmer, og fordeler pengene slik de bestemmer. Vi ønsker også velkommen til NVIDIA-stiftelsen som slutter seg til initiativet ved å i tillegg donere $20,000 til programmet."
+
+"charity_choice"	"Hvilken veldedig organisasjon ønsker du å støtte?"
+
+"charity_asia"		"Central Asia Institute"
+"charity_asia_details"	"\"Central Asia Institute\" fremmer og støtter samfunnsbasert utdanning, spesielt for jenter, i Pakistan og Afghanistan. Vi har hjulpet til å etablere over 150 skoler og har gitt utdanningsmuligheter for 64 000 studenter. For mer informasjon om \"Central Asia Institute\" eller \"Pennies for Peace\", vennligst ring oss på 406-585-7841 eller besøk www.ikat.org. \"Central Asia Institute\" og \"Pennies for Peace\" navnene er brukt med tillatelse, som på ingen måte utgjør en godkjenning, uttrykt eller underforstått, for noe produkt, tjeneste, bedrift eller enkeltperson."
+
+"charity_schools"	"Building Schools for Africa"
+"charity_schools_details" "\"Building Schools for Afrika\" er en liten humanitær organisasjon som mener at den beste måten å hjelpe folk til å bli uavhengig av fattigdom, sykdom og utnyttelse er gjennom utdanning. Vi bygger skoler med rent vann, toalett, verktøy og frø til å dyrke mat i distriktene i Kamerun der bondefamilier tjener ca. $1 per uke. Vi kan tilby alt dette for kun $ 20.000 per skole og fordi vi betaler alle våre egne utgifter, vil hver krone som vi samler inn bli brukt til å bygge skoler med absolutt ingen avdrag. Takk for hjelpen."
+
+"charity_read"		"Room to Read®"
+"charity_read_details"	"Room to Read® søker å forandre livet til millioner av barn i utviklingsland ved å fokusere på lesekyndighet og kjønnslikestilling i utdanningen. Ved å jobbe i samarbeid med lokalsamfunn, partnerorganisasjoner og regjeringer, utvikler vi lesekyndighet og en lesevane blant grunnskoleelever og sikrer at jenter har de samme ferdighetene og støtten for å fullføre sin videregående utdanning. Lær mer på www.roomtoread.org."
+
+"charity_scholarship"	"Scholarship America®"
+"charity_scholarship_details"	"Scholarship America® er en nasjonal utdannings serviceorganisasjon som mobiliserer støtte for studenter til å komme inn, og bli uteksaminert fra college. Vi har tre sentralprogrammer som hjelper oss med å nå vårt mål: Dollars for Scholars®, Scholarship Management Services®, og \"Dreamkeepers\". \"Scholarship America\" har distribuert mer enn $2 milliarder i stipend til mer enn 1,7 millioner studenter siden 1958. Mer informasjon er tilgjengelig på www.scholarshipamerica.org."
+
+"charity_footer"	"Avstemmingen avsluttes 11:59PM EST 31. desember 2010. En stemme per bruker. Ikke gyldig i alle områder. For mer informasjon om NVIDIA-stiftelsen, besøk"
+"charity_footer_link"	"http://www.nvidia.com/object/corporate_community.html"
+
+"charity_launchgame"	"Start spill"
+
+
+
+
+}
+}

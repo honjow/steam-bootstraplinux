@@ -1,0 +1,7 @@
+libwayland-cursor.so.0 libwayland-cursor0 #MINVER#
+ wl_cursor_frame@Base 0
+ wl_cursor_frame_and_duration@Base 0
+ wl_cursor_image_get_buffer@Base 0
+ wl_cursor_theme_destroy@Base 0
+ wl_cursor_theme_get_cursor@Base 0
+ wl_cursor_theme_load@Base 0

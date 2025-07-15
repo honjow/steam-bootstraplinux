@@ -1,0 +1,17 @@
+drwxr-xr-x root/root         0 2025-05-16 18:17 ./
+drwxr-xr-x root/root         0 2025-05-16 18:17 ./usr/
+drwxr-xr-x root/root         0 2025-05-16 18:17 ./usr/share/
+drwxr-xr-x root/root         0 2025-05-16 18:17 ./usr/share/doc/
+drwxr-xr-x root/root         0 2025-05-16 18:17 ./usr/share/doc/steam-runtime-tools-minimal/
+-rw-r--r-- root/root      8738 2025-05-16 17:14 ./usr/share/doc/steam-runtime-tools-minimal/copyright
+-rw-r--r-- root/root     51682 2025-05-16 18:03 ./usr/share/doc/steam-runtime-tools-minimal/changelog.amd64.gz
+drwxr-xr-x root/root         0 2025-05-16 18:17 ./usr/bin/
+-rwxr-xr-x root/root     81824 2025-05-16 18:17 ./usr/bin/steam-runtime-steam-remote
+-rwxr-xr-x root/root    152096 2025-05-16 18:17 ./usr/bin/steam-runtime-urlopen
+-rwxr-xr-x root/root    114816 2025-05-16 18:17 ./usr/bin/steam-runtime-identify-library-abi
+drwxr-xr-x root/root         0 2025-05-16 18:17 ./usr/libexec/
+drwxr-xr-x root/root         0 2025-05-16 18:17 ./usr/libexec/steam-runtime-tools-0/
+-rwxr-xr-x root/root    102496 2025-05-16 18:17 ./usr/libexec/steam-runtime-tools-0/srt-run-outside-ldlp
+-rw-r--r-- root/root      1348 2025-05-16 17:14 ./usr/libexec/steam-runtime-tools-0/logger-0.bash
+-rwxr-xr-x root/root     68720 2025-05-16 18:17 ./usr/libexec/steam-runtime-tools-0/srt-bwrap
+-rwxr-xr-x root/root    123240 2025-05-16 18:17 ./usr/libexec/steam-runtime-tools-0/srt-logger

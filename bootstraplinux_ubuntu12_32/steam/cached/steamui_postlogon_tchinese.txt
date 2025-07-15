@@ -1,0 +1,41 @@
+﻿"lang" {
+"Language" "tchinese" 
+"Tokens" 
+{ 
+"Steam_TellTale_EmailPrompt"	"%subscription% 的發行商 Telltale 希望能與您保持聯繫。 如果您想訂閱 Telltale 電子報，請在下面輸入您的電子郵件地址。電子報內容包括遊戲上市快報、開發過程幕後花絮、漫畫、烹飪和建議專欄，以及不定時提供的優惠。 保證讓您大呼過癮！"
+
+"Steam_Football2K9_EmailPrompt"	"SEGA 是 %subscription% 發行商，提供您特別的 Subside Sports 折扣，做為對您購買遊戲的感謝。請在下面輸入您的電子郵件地址以接收 10% 的折扣證明，適用於在 Subside Sports 的線上商店提供的任何商品。"
+
+"Steam_TwoTribes_EmailPrompt"	"若您想與 Two Tribes 保持聯繫，您可以訂閱我們的電子報。只要填入電子郵件地址，您就能定期收到本公司出品之各款酷炫遊戲的最新消息！"
+
+
+"charity_title" "《文明帝國 5》"
+
+"charity_imagetext" "回饋"
+
+"charity_header" "2K Games 為 4 個教育性質的慈善機構進行了捐款，總共 $250,000，捐獻者將能夠選擇如何分配及發放這筆慈善金。我們將會統計捐獻者的投票票數並按照你們的意願來分配這筆基金。我們也很歡迎 NVIDIA 基金會，他們藉由捐助 $20,000 來大力支持我們的計畫。"
+
+"charity_choice"	"您想要支持哪一個基金會？"
+
+"charity_asia"		"Central Asia Institute"
+"charity_asia_details"	"在巴基斯坦和阿富汗，中亞研究機構（Central Asia Institute）以提升及贊助社區型教育為目標，尤其是對女性的幫助。我們已經幫助建立了超過150所學校，已為64000名學生提供了教育機會。如果您想了解更多有關中亞研究機構和一元為和平（Pennies for Peace）的訊息，請致電 406-585-7841 或者瀏覽我們的網站 www.ikat.org。中亞研究機構（Central Asia Institute）和一元為和平（Pennies for Peace）是經過授權的稱呼。其中並未有任何代言、明示或暗示的任何的產品、服務、公司或個人的意圖。"
+
+"charity_schools"	"Building Schools for Africa"
+"charity_schools_details" "為非洲建立新的學校是一件尊重人道主義的表現。我們相信通過教育，可以幫助非洲人民擺脫貧困、疾病及剝削等困境。在喀麥隆的農村，家庭收入僅為 1 美元/周的地區，我们建立了有著淨水供給、乾淨廁所、良好工具與耕種種子的學校。我們平均每間學校只要花 20,000 美元就可以達到上述要求，由於我們將所有的基金投注在幫助非洲上，我們所收到的每一份捐款將不會有任何的浪費，而完全用在建立學校上。"
+
+"charity_read"		"Room to Read®"
+"charity_read_details"	"樂讀室（Room to Read®）是藉由提高識字能力，減少性别歧視，來為數百萬的孩童提供更好的教育及發展空間。我們與當地的社區、合作組織及政府攜手合作，一起來改善小學生的閱讀能力，並為女性提供需要的技能和支持，以便她們能夠完成中學教育。如果您想知道更多的詳細的資訊，請瀏覽 www.roomtoread.org。"
+
+"charity_scholarship"	"Scholarship America®"
+"charity_scholarship_details"	"美國獎學金（Scholarship America®）是一個國際教育服務機構，它為即將從高中畢業、準備進入大學的學生提供獎學金。我們有三個主要項目幫助我們能夠更快地達到理想目標：美金獎學金（Dollars for Scholars®），獎學金管理服務（Scholarship Management Services®），及追夢者（Dreamkeepers）。自1958年來，美國獎學金（Scholarship America®）向高達170多萬的學生，發放超過20億美金的獎學金。如果您想知道更多的資訊，請瀏覽 www.scholarshipamerica.org。"
+
+"charity_footer"	"投票將在美東時間 2010 年 12 月 31 日下午 11:59（11:59PM EST）結束。每個人僅限投一票。僅限活動參與國家。如果您想知道更多的資訊，請瀏覽 NVIDIA 基金會網站。"
+"charity_footer_link"	"http://www.nvidia.com/object/corporate_community.html"
+
+"charity_launchgame"	"啟動遊戲"
+
+
+
+
+}
+}

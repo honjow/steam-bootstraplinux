@@ -1,0 +1,46 @@
+"resource/layout/ingamefpsbanner.layout"
+{
+	controls
+	{
+		PresentationFPS { controlname=CIngameFPSPresentationFPS }
+		GameFPS { controlname="CIngameFPSGameFPS" }
+	
+		IngameFPSGraph { controlname=CIngameFPSGraph wide="0" tall="24" visble="0" }
+		CPUInfoAvg { controlname=CIngameCPUInfo visible="0" }
+		GPUIno { controlname="CIngameGPUInfo" visible="0" }
+		RAMInfo { controlname=CIngameRAMInfo visible="0" }
+	}
+
+	colors
+	{
+		FPSGraph.ColorFPSAvg "0 212 53 255"
+		FPSGraph.ColorFPSBad "218 100 100 255"  // Code will adjust alpha for intensity depending on actual bad frame count in the second
+		FPSGraph.ColorLegend "0 212 53 255"
+		FPSGraph.HeightLarge "28"
+
+		CPUCoreGraph.ColorGreen "0 212 53 255"
+		CPUCoreGraph.ColorOrange "255 20 10 255"
+		CPUCoreGraph.ColorYellow "218 218 0 255"
+		CPUCoreGraph.HeightLarge "28"
+	}
+   	
+	styles
+	{
+		Label
+		{
+			font-family="Motiva"
+		}
+
+		GraphLarge
+		{
+			font-family="Motiva"
+			font-weight="700"
+			font-size="16"
+		}
+	}
+	
+	layout
+	{
+		place { control="PresentationFPS,GameFPS,IngameFPSGraph,CPUInfoAvg,GPUInfo,RAMInfo" align=left-center spacing=0 }
+	}
+}

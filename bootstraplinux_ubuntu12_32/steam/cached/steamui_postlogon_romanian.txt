@@ -1,0 +1,41 @@
+﻿"lang" {
+"Language" "romanian" 
+"Tokens" 
+{ 
+"Steam_TellTale_EmailPrompt"	"Telltale, distribuitorul de la %subscription%, ar vrea să păstreze legătura cu tine. Te rugăm să introduci adresa ta de e-mail mai jos pentru a te abona la buletinul de ştiri Telltale, care conţine anunţuri de jocuri noi, amuzamente din spatele procesului de dezvoltare, glume, articole despre gătit şi recomandări, precum şi oferte speciale ocazionale. Te vei bucura dacă te abonezi!"
+
+"Steam_Football2K9_EmailPrompt"	"SEGA, publisherul %subscription%, vrea să-ţi ofere un discount special la Subside Sports, drept mulţumire pentru achiziţia ta. Te rugăm să introduci adresa ta de e-mail mai jos pentru a primi voucherul care-ţi oferă o reducere de 10% pentru orice produs disponibil în magazinul online Subside Sports."
+
+"Steam_TwoTribes_EmailPrompt"	"Dacă vrei să rămâi în legătură cu Two Tribes, te poţi înscrie la newsletterul nostru. Introdu adresa de e-mail şi noi îţi vom trimite actualizări constante despre toate jocurile pe care le producem!"
+
+
+"charity_title" "Sid Meier's Civilization V"
+
+"charity_imagetext" "Ajutaţi-ne să Donăm"
+
+"charity_header" "2K Games va face o donaţie de 250,000$ către fondurile a patru asociaţii de caritate, iar utilizatorii vor determina modul în care se vor împărţii banii. Vom număra voturile consumatorilor şi vom împărţii banii precum aţi ales. De asemenea, mulţumim Fundaţia NVIDIA, care ne sprijină în această iniţiativă printr-o donaţie în plus de 20,000$."
+
+"charity_choice"	"Ce asociaţie de caritate doriţi să ajutaţi?"
+
+"charity_asia"		"Central Asia Institute"
+"charity_asia_details"	"'Central Asia Institute' promovează şi ajută comunităţile din Pakistan şi Afganistan, oferind educaţie, în special pentru fete. Noi am stabilit peste 150 de şcoli şi oferim oportunităţi de educaţie pentru 64,000 de studenţi. Pentru mai multe informaţii despre 'Central Asia Institute' sau programul 'Pennies for Peace', sunaţi-ne la 406-585-7841 sau intraţi pe website-ul www.ikat.org. Numele 'Central Asia Institute' şi 'Pennies for Peace' sunt folosite cu acordul organizatiei, ceea ce nu constituie o aprobare, exprimată sau implicită, a vreunui produs, serviciu, companie sau individ."
+
+"charity_schools"	"Building Schools for Africa"
+"charity_schools_details" "'Building Schools for Africa' este o organizație umanitara mică, care crede că cea mai bună modalitate de a ajuta oamenii să devină independenți de sărăcie, boli și exploatare este prin educație. Noi construim școli cu apă curată și toalete și utilitare și semănăm pentru a crește hrană în Cameroon-ul rural, unde familii de fermieri câștigă 1$ pe săptămână. Putem să asigurăm toate acestea pentru doar 20,000$ pe școală și pentru că ne plătim singuri toate cheltuielile, fiecare cent pe care îl strângem fiind cheltuit pentru a construi școli fără niciun fel de deduceri. Mulțumim pentru ajutorul vostru."
+
+"charity_read"		"Room to Read®"
+"charity_read_details"	"'Room to Read®' caută să transforme viețile a milioane de copii din țările în dezvoltare prin concentrare asupra alfabetizării și egaliatea sexelor în educație. Lucrând în colaborare cu comunitățile locale, oraganizații partener și guverne, dezvoltăm abilități de alfabetizare și obiceiul de a citi printre copii de școală primară și asigurăm că fete au deprinderile și suportul necesar pentru a-și încheia învățământul secundar. Aflați mai multe pe www. roomtoread.org."
+
+"charity_scholarship"	"Scholarship America®"
+"charity_scholarship_details"	"'Scholarship America®' este un serviciu național de educare care mobilizează ajutor pentru studenți, ca aceștia să absolveze liceul. Avem trei programe de bază care ne ajută la îndeplinirea acestei misiuni: 'Dollars for Scholars®', 'Scholarship Management Services®', și 'Dreamkeepers'. 'Scholarship America' a distribuit peste 2 miliarde de dolari în burse de asistență la peste 1.7 milioane de studenți începând din 1958. Mai multe informații sunt disponibile pe www.scholarshipamerica.org."
+
+"charity_footer"	"Votul se închide la ora 11:59PM EST pe 31 Decembrie 2010. Un vot per utilizator. Nu este valid pe toate teritoriile. Pentru mai multe informații despre 'Fundația NVIDIA' vizitați"
+"charity_footer_link"	"http://www.nvidia.com/object/corporate_community.html"
+
+"charity_launchgame"	"Lansează jocul"
+
+
+
+
+}
+}

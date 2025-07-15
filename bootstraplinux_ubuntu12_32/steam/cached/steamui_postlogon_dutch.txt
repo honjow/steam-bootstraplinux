@@ -1,0 +1,41 @@
+﻿"lang" {
+"Language" "dutch" 
+"Tokens" 
+{ 
+"Steam_TellTale_EmailPrompt"	"Telltale, uitgever van %subscription%, wil graag contact met je houden. Voer hieronder je e-mailadres in om je aan te melden voor de nieuwsbrief van Telltale. Hierin vind je aankondigingen voor nieuwe spellen, exclusieve kijkjes achter de schermen bij de ontwikkelingsprocessen, strips, columns over koken, informatieve stukjes en zo nu en dan een speciale aanbieding. Je zult er geen spijt van krijgen!"
+
+"Steam_Football2K9_EmailPrompt"	"Als dank voor jouw aankoop wil SEGA, de uitgever van %subscription%, je een speciale korting bij Subside Sports aanbieden. Voer hieronder je e-mailadres in en ontvang een coupon waarmee je 10% korting krijgt op alle producten uit de onlinewinkel van Subside Sports."
+
+"Steam_TwoTribes_EmailPrompt"	"Als je op de hoogte wilt blijven van Two Tribes, kun je je aanmelden voor onze nieuwsbrief. Je hoeft alleen maar je e-mailadres in te vullen. Wij zorgen er dan voor dat je regelmatig info ontvangt over al onze coole spellen!"
+
+
+"charity_title" "Sid Meier's Civilization V"
+
+"charity_imagetext" "Terug geven"
+
+"charity_header" "2K Games doneert een bedrag van totaal $250.000 aan vier op educatie gebaseerde goede doelen, en de keuzes van de gebruikers zullen bepalen hoe het geld zal verspreid worden. Wij zullen de stemmen van de klanten optellen en de financiën verspreiden zoals jullie hebben aangegeven. We verwelkomen ook The NVIDIA Foundation, die met ons meedoen in dit initiatief door een extra $20.000 aan het programma te schenken."
+
+"charity_choice"	"Welk goed doel wil je graag helpen?"
+
+"charity_asia"		"Central Asia Institute"
+"charity_asia_details"	"Central Asia Institute promoot en ondersteunt onderwijs gegeven door de gemeenschap, alleen voor meiden, in Pakistan en Afghanistan. We hebben meegeholpen om meer dan 150 scholen op te zetten, en hebben onderwijs aan kunnen bieden aan ruim 64.000 leerlingen. Voor meer informatie over Central Asia Institute, of Pennies for Peace, bel ons dan op 406-585-7841 of bezoek www.ikat.org. De namen van Central Asia Institute en Pennies for Peace zijn gebruikt met toestemming, wat in geen geval betekent een samenwerking, aangegeven of geïmpliceerd, met welk product, dienst, bedrijf, of persoon."
+
+"charity_schools"	"Building Schools for Africa"
+"charity_schools_details" "Building Schools for Africa is een kleine humanitaire organisatie die gelooft dat de beste manier om mensen te helpen onafhankelijk te worden van armoede, ziekte en exploitatie, door middel van onderwijs is. Wij bouwen scholen met schoon water en toiletten en onderdelen en zaden om voedsel te laten groeien in plattelandse Kameroen waar boerenfamilies ongeveer $1 per week verdienen. Wij kunnen dit allemaal doen door slechts $20.000 per school te gebruiken, en omdat we onze eigen kosten dekken, wordt elke cent die we verdienen gebruikt aan het bouwen van scholen met absoluut geen aftrekkingen. Bedankt voor uw hulp."
+
+"charity_read"		"Room to Read®"
+"charity_read_details"	"Room to Read® streeft er naar om de levens van miljoenen kinderen te veranderen in de altijd maar veranderende wereld door zich op alfabetisering te richten en gelijkheid in onderwijs. Samen met lokale gemeenschappen, partner organisaties en overheden, helpen wij met lezen en schrijven en de gewoonte om te lezen onder basisschool kinderen, en zorgen wij ervoor dat ook meiden de vaardigheden en de steun krijgen die zij nodig hebben om hun secundaire opleiding af te ronden. Lees meer op www.roomtoread.org."
+
+"charity_scholarship"	"Scholarship America®"
+"charity_scholarship_details"	"Scholarship America® is een nationale educatie dienst organisatie die ondersteuning biedt aan het zowel komen in hogescholen, als het behalen van een diploma op hogescholen. Wij hebben drie kern programma's die ons helpen om onze missie te behelen: Dollars for Scholars®, Scholarship Management Services®, en Dreamkeepers. Scholarship America heeft meer dan 2 miljard dollar geïnvesteerd in studiebeurzen, om deze aan te bieden aan meer dan 1,7 miljoen studenten sinds 1958. Meer informatie is te lezen op www.scholarshipamerica.org."
+
+"charity_footer"	"Stemming sluit op 23:59 EST op 31 december, 2010. Eén stem per gebruiker. Niet beschikbaar in alle landen. Voor meer informatie over The NVIDIA Foundation bezoek"
+"charity_footer_link"	"http://www.nvidia.com/object/corporate_community.html"
+
+"charity_launchgame"	"Spel starten"
+
+
+
+
+}
+}
