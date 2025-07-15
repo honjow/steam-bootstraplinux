@@ -1,0 +1,41 @@
+﻿"lang" {
+"Language" "danish" 
+"Tokens" 
+{ 
+"Steam_TellTale_EmailPrompt"	"Telltale, som udgiver %subscription%, vil gerne holde kontakten til dig ved lige. Indtast din e-mailadresse nedenfor for at tilmelde dig Telltales nyhedsbrev, som fortæller om nye spil, tager dig med bag kulisserne i udviklingen, indeholder tegneserier, opskrifter og brevkasser og lejlighedsvis også særtilbud. Du bliver glad for det!"
+
+"Steam_Football2K9_EmailPrompt"	"SEGA, som udgiver %subscription%, vil gerne tilbyde dig en særlig rabat hos Subside Sports som tak for dit køb. Indtast din e-mailadresse herunder for at modtage din rabatkupon på 10% til alle produkter i Subside Sports' online forretning."
+
+"Steam_TwoTribes_EmailPrompt"	"Hvis du er interesseret i at forblive i kontakt med Two Tribes, kan du abonnere på vores nyhedsbrev. Du skal bare angive din e-mailadresse, så sender vi dig regelmæssige nyheder om alle de spændende spil, som vi laver!"
+
+
+"charity_title" "Sid Meier's Civilization V"
+
+"charity_imagetext" "At give tilbage"
+
+"charity_header" "2K Games donerer 250.000$ til fire uddannelses-baserede velgørende formål, og brugernes valg vil bestemme, hvordan pengene fordeles. Vi vil optælle kundernes stemmer og fordele pengene, som I har anvist. Vi vil også byde velkommen til NVIDIA-fundamentet, som deltager med os i dette initiativ ved at donere yderligere 20.000$ til budgettet."
+
+"charity_choice"	"Hvilken velgørenhed ønsker du at støtte?"
+
+"charity_asia"		"Central Asia Institute"
+"charity_asia_details"	"Central Asia Institute fremmer og støtter samfundsbaserede uddannelser, især for piger, i Pakistan og Afghanistan. Vi har hjulpet med at opføre 150 skoler og har givet uddannelsesmuligheder til 64.000 studerende. For flere oplysninger omkring Central Asia Institute eller Pennies for Peace, ring da til os på 406-585-7841 eller besøg www.ikat.org. Navnene Central Asia Institute og Pennies for Peace bruges med deres respektive tilladelser, hvilket på ingen måde udgør en godkendelse, udtrykt eller antydet, for ethvert produkt, service, virksomhed eller individ."
+
+"charity_schools"	"Building Schools for Africa"
+"charity_schools_details" "Building Schools for Africa er en lille humanitær organisation, der har tiltro til, at uddannelse er den bedste måde, at hjælpe folk med at blive uafhængige af fattigdom, sygdom og udnyttelse. Vi bygger skoler med rent vand, toiletter, værktøjer og frø til at go mad med i det landlige Cameroun, hvor landbrugsfamilier tjener omtrent 1$ om ugen. Vi kan forsyne alt dette for kun 20.000$ per skole, og fordi vi betaler alle vores udgifter, går hver penny, vi tjener, på at bygge skoler med absolut ingen fradrag. Tak for din hjælp."
+
+"charity_read"		"Room to Read®"
+"charity_read_details"	"Room to Read® forsøger, i den udviklende verden, at forandre millioner af børns liv ved at fokusere på læsedygtighed og kønslighed gennem uddannelse. Idet vi arbejder i samarbejde med lokale samfund, partnerorganisationer og regeringer, udvikler vi læseevner og en læsevane hos folkeskolebørn og sikrer os, at piger har evnerne og støtten, som der er brug for, for at de skal gennemføre deres højere uddannelse. Lær mere på www.roomtoread.org"
+
+"charity_scholarship"	"Scholarship America®"
+"charity_scholarship_details"	"Scholarship America® er en landsdækkende undervisningsservice-organisation, som mobiliserer støtte til studerende, der tager på universitetet eller færdiggør deres uddannelse der. Vi har tre kerneprogrammer, der skal hjælpe os med at opnå vores mission: Dollars for Scholars®, Scholarship Management Services® og Dreamkeepers. Scholarship America har fordelt mere end 2 milliarder dollars i legatassistance hos over 1,7 millioner studerende siden 1958. Mere information er tilgængeligt på www.scholarshipamerica.org."
+
+"charity_footer"	"Stemmeafgivning slutter kl. 23.59 EST den 31. december 2010. Én stemme per bruger. Gælder ikke i alle områder. For flere oplysninger omkring NVIDIA-fundamentet, besøg da"
+"charity_footer_link"	"http://www.nvidia.com/object/corporate_community.html"
+
+"charity_launchgame"	"Start spil"
+
+
+
+
+}
+}

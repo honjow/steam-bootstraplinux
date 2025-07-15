@@ -1,0 +1,41 @@
+﻿"lang" {
+"Language" "german" 
+"Tokens" 
+{ 
+"Steam_TellTale_EmailPrompt"	"Telltale, der Publisher von %subscription%, möchte Ihnen weiterhin Informationen senden. Geben Sie einfach unten Ihre E-Mail-Adresse an und Sie erhalten den Newsletter von Telltale mit Ankündigungen zu neuen Spielen, exklusiven Einblicken in Entwicklungsprozesse, Comics sowie Tipps und Sonderangeboten. Das sollten Sie nicht verpassen!"
+
+"Steam_Football2K9_EmailPrompt"	"Als Dankeschön für Ihren Einkauf möchte Ihnen SEGA, der Publisher von %subscription%, einen Sonderrabatt bei Subside Sports anbieten. Geben Sie einfach unten Ihre E-Mail-Adresse an und Sie erhalten einen Gutschein über 10&nbsp;% Rabatt auf ein beliebiges Produkt aus dem Onlinesortiment von Subside Sports."
+
+"Steam_TwoTribes_EmailPrompt"	"Falls Sie mit Two Tribes in Verbindung bleiben wollen, können Sie sich für unseren Newsletter anmelden. Geben Sie einfach Ihre E-Mail-Adresse ein und wir werden Sie regelmäßig mit Neuigkeiten über all die coolen Spiele, die wir machen, versorgen!"
+
+
+"charity_title" "Sid Meier's Civilization V"
+
+"charity_imagetext" "Helfen Sie mit"
+
+"charity_header" "2K Games verteilt 250.000 US-Dollar an vier bildungsorientierte Wohltätigkeitsorganisationen und Ihre Entscheidung wird bestimmen, wie diese Summe verteilt wird. Wir werden Ihre Stimmen zählen und nach Ihrer Gewichtung die Gelder verteilen. Wir freuen uns auch, dass die NVIDIA Foundation ebenfalls teilnimmt und dieser Aktion zusätzlich 20.000 US-Dollar zuführt."
+
+"charity_choice"	"Welche Wohltätigkeitsorganisation möchten Sie unterstützen?"
+
+"charity_asia"		"Central Asia Institute"
+"charity_asia_details"	"Das Central Asia Institute fördert und unterstützt Bildungsprogramme, insbesondere für Mädchen, in Gemeinden in Pakistan und Afghanistan. Wir haben bei der Gründung von über 150 Schulen mitgeholfen und damit Bildungschancen für ca. 64.000 Schüler geschaffen. Weitere Informationen zum Central Asia Institute oder Pennies for Peace erhalten Sie unter www.ikat.org oder rufen Sie uns unter der Telefonnummer 001-406-585-7841 an. Die Namen Central Asia Institute und Pennies for Peace wurden mit deren Genehmigung verwendet, unterstellen aber keinerlei implizierte Unterstützung jeglicher Produkte, Dienstleitungen, Unternehmen oder Individuen."
+
+"charity_schools"	"Building Schools for Africa"
+"charity_schools_details" "'Building Schools for Africa' ist eine kleine humanitäre Organisation, die die Ansicht vertritt, dass Bildung Menschen am besten dabei helfen kann, Armut, Leid und Unterdrückung zu bewältigen. Wir gründen Schulen mit Frischwasserversorgung und Toiletten und Hilfswerkzeugen zum säen von Nahrung in ländlichen Gegenden von Kamerun, in denen das Durchschnittseinkommen ungefähr bei 1 US-$ pro Woche liegt. Wir können all dies für ca. 20.000 US-$ pro Schule bewerkstelligen und, da wir alle unsere eigenen Auslagen selbst tragen, wird jeder Spendenzugang direkt zur Errichtung weiterer Schulen verwendet, ohne jeglichen Kostenabschlag. Vielen Dank für Ihre Hilfe."
+
+"charity_read"		"Room to Read®"
+"charity_read_details"	"'Room to Read®' verändert das Leben von Millionen von Kindern in Entwicklungsländern, indem wir uns auf Lese- und Schreibfähigkeiten und geschlechtsunabhängige Bildungsgleichheit fokussieren. Wir arbeiten mit örtlichen Gemeinden, Partnerorganisationen und Behörden zusammen und entwickeln Lese- und Schreibfähigkeit für Kinder im Grundschulalter und gewährleisten dadurch, dass Mädchen alle Fähigkeiten und jegliche Unterstützung erhalten, um einen höheren Bildungsweg einschlagen zu können. Weitere Informationen erhalten Sie bei www.roomtoread.org."
+
+"charity_scholarship"	"Scholarship America®"
+"charity_scholarship_details"	"Scholarship America® ist eine nationale Bildungsdienstleistungs-Organisation, die Studenten dabei unterstützt, einen höheren Bildungsweg einzuschlagen und einen Abschluss zu erreichen. Wir halten drei Kernprogramme bereit, um diesen Auftrag zu erfüllen: 'Dollars for Scholars®', 'Scholarship Management Services®' und 'Dreamkeepers'. Scholarship America hat mehr als 2 Milliarden Dollar über 1,7 Millionen Studenten seit 1958 zum Zweck des Studienabschlusses zugeführt. Weitere Informationen erhalten Sie bei www.scholarshipamerica.org."
+
+"charity_footer"	"Diese Abstimmung endet am 31. Dezember 2010 um 23:59 EST. Nur eine Stimme pro Person. Nicht in allen Ländern verfügbar. Weitere Informationen erhalten Sie auf der Website der NVIDIA Foundation:"
+"charity_footer_link"	"http://www.nvidia.com/object/corporate_community.html"
+
+"charity_launchgame"	"Spiel starten"
+
+
+
+
+}
+}

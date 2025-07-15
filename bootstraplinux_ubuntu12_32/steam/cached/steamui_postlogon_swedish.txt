@@ -1,0 +1,41 @@
+﻿"lang" {
+"Language" "swedish" 
+"Tokens" 
+{ 
+"Steam_TellTale_EmailPrompt"	"Telltale, utgivarna av %subscription%, vill gärna hålla kontakten med dig. Skriv in din e-postadress nedan så börjar du prenumerera på Telltales nyhetsbrev, som innehåller presentationer av nya spel, besök bakom kulisserna till utvecklingsprocessen, tecknade serier, artiklar om matlagning och tips och råd, och ibland även specialerbjudanden. Du kommer inte att ångra dig!"
+
+"Steam_Football2K9_EmailPrompt"	"SEGA, utgivarna av %subscription%, ger dig en specialrabatt på Subside Sports som tack för ditt inköp. Ange din e-postadress nedan så får du en kupong på 10% rabatt som gäller för alla produkter som säljs på Subside Sports onlinebutik."
+
+"Steam_TwoTribes_EmailPrompt"	"Om du vill fortsätta hålla kontakten med Two Tribes kan du prenumerera på vårt nyhetsbrev. Skriv helt enkelt in din e-postaddress så kommer vi förse dig med regelbundna uppdateringar om alla coola spel vi gör!"
+
+
+"charity_title" "Sid Meier's Civilization V"
+
+"charity_imagetext" "Ger tillbaka"
+
+"charity_header" "2K Games donerar totalt $250,000 till fyra utbildnings-baserade välgörenhetorganisationer, och användarnas val kommer avgöra hur pengarna fördelas. Vi kommer räkna ihop kundernas röster och fördela pengarna som du har begärt. Vi välkomnar även NVIDIA fonden, som har gått med oss i detta initiativ genom att donera $20,000 extra till programmet."
+
+"charity_choice"	"Vilken välgörenhet vill du donera till?"
+
+"charity_asia"		"Central Asia Institute"
+"charity_asia_details"	"Central Asia Institute uppmuntrar och stödjer samhälle-baserad utbildning, speciellt för tjejer, i Pakistan och Afganistan. Vi har hjälpt till att etablera över 150 skolor och har anordnat möjlighet till undervisning för 64 000 studenter. För mer information om Central Asia Institute eller Pennies for Peace, ring oss på +1 406-585-7841 eller besök www.ikat.org. Namnen Central Asia Institute och Pennies for Peace är använda med tillåtelse, vilket inte på något sätt utgör ett bifall av någon produkt, tjänst, företag eller person."
+
+"charity_schools"	"Building Schools for Africa"
+"charity_schools_details" "Building Schools for Africa är en liten humanitär organisation som tror att det bästa sättet att hjälpa folk att bli skilda från fattigdom, sjukdom och utnyttjande är genom undervisning. Vi bygger skolor med rent vatten, toaletter, verktyg och frön för att växa mat i lantliga Kamerun där farmarfamiljer tjänar runt 10 kronor per vecka. Vi kan ge dem allt detta för endast 20 000 dollar per skola och p.g.a. att vi betalar alla våra egna utgifter så går varenda öre vi tjänar till att bygga skolor med absolut inga avdrag. Tack för din hjälp."
+
+"charity_read"		"Room to Read®"
+"charity_read_details"	"Room to Read® försöker transformera flera miljoner barns liv i u-länder genom att fokusera på läs-och-skrivkunnighet och jämställdhet i undervisning. Vi jobbar tillsammans med lokala områden, partnerorganisationer och regeringar för att utveckla läs-och-skrivkunnigheten och en vana att läsa hos barn i grundskolan och ser till att flickor har skickligheten och stödet de behöver för att klara sin gymnasieutbildning. Lär dig mer om oss på www.roomtoread.org."
+
+"charity_scholarship"	"Scholarship America®"
+"charity_scholarship_details"	"Scholarship America® är en nationell undervisningstjänstsorganisation som mobiliserar stöd för studenter som försöker komma in och som tar examen från college. Vi har tre kärnprogram som hjälper oss klara detta uppdrag: Dollars for Scholars®, Scholarship Management Services®, och Dreamkeepers. Scholarship America har distribuerat mer än 2 miljarder dollar i stipendium till mer än 1.7 millioner studenter sedan 1958. Mer information finns på www.scholarshipamerica.org."
+
+"charity_footer"	"Röstning stängs vid 23:59 EST den 31 december, 2010. En röst per användare. Ej giltig i alla territorier. För mer information om NVIDIA Fonden, besök"
+"charity_footer_link"	"http://www.nvidia.com/object/corporate_community.html"
+
+"charity_launchgame"	"Starta spel"
+
+
+
+
+}
+}

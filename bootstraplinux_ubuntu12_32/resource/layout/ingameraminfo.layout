@@ -1,0 +1,38 @@
+"resource/layout/ingameraminfo.layout"
+{
+	controls
+	{
+		RAMLabel { controlname=CPerfLabel style="RAMLabel" }
+		RAMUsed { controlname=CPerfLabel style="RAMUtilization" }
+		RAMSep { controlname=CPerfLabel style="RAMUtilization" }
+		RAMMax { controlname=CPerfLabel style="RAMUtilization" }
+		RAMUnits { controlname=CPerfLabel style="RAMUtilization" }
+
+		SeperatorBack { controlname=CPerfLabel style="PerfSeperator" }
+	}
+
+	styles
+	{
+		Label
+		{
+			font-family="Motiva"
+		}
+
+		RAMLabel
+		{
+			font-weight="700"
+
+			textcolor="165 115 226 255"
+		}
+
+		RAMUtilization
+		{
+			textcolor="220 220 220 255"
+		}
+	}
+	
+	layout
+	{
+		place { control="RAMLabel,RAMUsed,RAMSep,RAMMax,RAMUnits,SeperatorBack" dir="right" align="left-center" spacing=0 }
+	}
+}

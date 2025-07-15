@@ -1,0 +1,47 @@
+"resource/layout/ingamegamefps.layout"
+{
+	controls
+	{
+		FPSLabel { controlname=CPerfLabel }
+		AvgNumber { controlname=CPerfLabel }
+		AvgSep { controlname=CPerfLabel }
+		MinLabel { controlname=CPerfLabel }
+		MinFPSNumber { controlname=CPerfLabel }
+		MaxLabel { controlname=CPerfLabel }
+		MaxFPSNumber { controlname=CPerfLabel }
+
+		Seperator { controlname=Label visible=0 style="PerfSeperator" }
+	}
+
+	styles
+	{
+		Label
+		{
+			font-family="Motiva"
+		}
+
+		GameFPSLabel
+		{
+			font-weight="700"
+			textcolor="190 190 190 255"
+		}
+
+		GameFPSValue
+		{
+			textcolor="190 190 190 255"
+		}
+		GameFPSValueWarning
+		{
+			textcolor="218 100 100 255"
+		}
+		GameFPSValueWarningDesaturated
+		{
+			textcolor="220 2200 220 255"
+		}
+	}
+	
+	layout
+	{
+		place { control="FPSLabel,AvgNumber,AvgSep,MinLabel,MinFPSNumber,MaxLabel,MaxFPSNumber,Seperator" dir="right" align="left-center" spacing=0 }
+	}
+}

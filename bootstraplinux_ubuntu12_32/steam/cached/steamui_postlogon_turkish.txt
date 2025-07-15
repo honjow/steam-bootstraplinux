@@ -1,0 +1,41 @@
+﻿"lang" {
+"Language" "turkish" 
+"Tokens" 
+{ 
+"Steam_TellTale_EmailPrompt"	"Telltale, %subscription% yayımcısı, sizinle iletişimde kalmak istiyor. Lütfen Telltale'in haber bültenine katılmak için e-posta adresinizi aşağıya girin, bu sayede yeni oyun duyurularından, oyunların yapım aşamalarından haberdar olabilir ve özel teklifler alabilirsiniz. Bunu yaptığınıza memnun olacaksınız!"
+
+"Steam_Football2K9_EmailPrompt"	"SEGA, %subscription% yayımcısı, size indirimli Subside Sports alışverişi için teşekkür anlamında bir indirim talep ediyor. Lütfen e-posta adresinizi girin ve size Subside Sports çevrimiçi mağazasından herhangi bir şey almakta kullanacağınız 10% tutarındaki indirim kuponunuzu gönderelim."
+
+"Steam_TwoTribes_EmailPrompt"	"Eğer Two Tribes ile bağlantıda kalmak istiyorsanız haber bültenimize katılabilirsiniz. Sadece e-posta adresinizi yazın ve sonrasında sizi, yaptığımız güzel oyunlar hakkındaki güncellemelerden haberdar edelim!"
+
+
+"charity_title" "Sid Meier's Civilization V"
+
+"charity_imagetext" "İade"
+
+"charity_header" "2K Games, dört eğitim temelli hayır kurumlarına kulanıcıların tercihleri doğrultusunda toplam 250,000$ bağış dağıtacak. Bu parayı müşterilerin oylarına ve sizin yönlendirmenize göre dağıtacağız. Ayrıca bize katılıp 20.000$ bağışlayan NVIDIA Vakfının aramızda olmasından mutluluk duyuyoruz."
+
+"charity_choice"	"Hangi hayır kurumunu destekliyorsunuz?"
+
+"charity_asia"		"Orta Asya Enstitüsü"
+"charity_asia_details"	"Orta Asya Enstitüsü, Pakistan ve Afganistanda özellikle kızlar için toplum tabanlı eğitime destek ve teşvikte bulunmaktadır. Biz, 150'nin üzerinde okulun kurulmasında yardımda bulunduk ve 64.000 öğrenci için eğitim olanağı sağladık. Orta Asya Enstitüsü veya Pennies for Peace hakkında daha fazla bilgi almak için 406-585-7841 nolu numaradan bizi arayın ya da www.ikat.org adresini ziyaret edin. Orta Asya Enstitüsü veya Pennies for Peace adları izin alınmaksızın hiçbir şekilde kâr amaçlı faaliyette ya da herhangi bir ürün, hizmet, şirket adı olarak kullanılamaz."
+
+"charity_schools"	"Building Schools for Africa"
+"charity_schools_details" "Building Schools for Africa, insanların fakirlikten, hastalıklardan ve istismardan korunmasına yardımcı olacak en iyi yolun eğitimden geçtiğine inanan küçük bir hayırsever organizasyondur. Çiftçi ailelerin haftada 1 dolar civarı kazandığı Kamerun'un kırsal kesimlerinde, temiz suya, tuvaletlere ve araç gereçlere sahip okullar inşa ederiz ve besin yetiştiririz. Tüm bunları okul başı sadece 20,000 dolara sağlayabiliriz çünkü tüm harcamalarımızı öder, kazandığımız her bir kuruşu kesinlikle hiçbir çıkarımız olmadan okul yapımında kullanırız. Bize, bu konudaki yardımlarınız için teşekkür ederiz."
+
+"charity_read"		"Room to Read®"
+"charity_read_details"	"Room to Read®, dünyadaki millyonlarca büyümekte olan çocukların yaşamlarını okur-yazarlığa ve cinsiyet eşitliğine dayandırarak değiştirmeyi amaç edinmiştir. Yerel topluluklar, partner organizasyonları ve hükümetler ile işbirliği yaparak, ilkokul çocuklarının okur-yazarlık yeteneklerini ve okuma alışkanlıklarını geliştirir, kız çocuklarının da ikincil eğitimine devam etmesi için ihtiyacı olan yardımı sağlarız. www.roomtoread.org adresinden daha fazla bilgiye ulaşabilirsiniz."
+
+"charity_scholarship"	"Scholarship America®"
+"charity_scholarship_details"	"Scholarship America®, öğrencilerin kolejlere girebilmesi ve kolejden mezun olabilmesi için yardımda bulunan bir ulusal eğitim hizmetleri organizasyonudur. Görevimizi başarmamızda bize yardımcı olan üç ana programımız vardır: Dollars for Scholars®, Scholarship Management Services® ve Dreamkeepers. Scholarship America® 1958 yılından bu yana 1.7 milyondan fazla öğrenciye 2 milyar dolardan fazla burs desteği sağlamıştır. Daha fazla bilgiye www.scholarshipamerica.org adresinden ulaşabilirsiniz."
+
+"charity_footer"	"Oylamalar 31 Aralık 2010 tarihinde Pasifik Saatiyle 23.59'da sona erecektir. Her bir kullanıcı yalnızca bir oy kullanabilir. Oylama, tüm bölgelerde geçerli değildir. Nvidia Vakfı hakkında daha fazla bilgi için"
+"charity_footer_link"	"http://www.nvidia.com/object/corporate_community.html"
+
+"charity_launchgame"	"Oyunu çalıştır"
+
+
+
+
+}
+}

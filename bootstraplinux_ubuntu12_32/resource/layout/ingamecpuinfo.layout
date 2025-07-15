@@ -1,0 +1,46 @@
+"resource/layout/ingamecpuinfo.layout"
+{
+	controls
+	{
+		SeperatorFront { controlname=CPerfLabel style="PerfSeperator" }
+		CPULabel { controlname=CPerfLabel style="CPULabel" }
+		CPUUtilization { controlname=CPerfLabel style="CPUUtilization" }
+		CPUUtilizationSep { controlname=CPerfLabel style="CPUUtilization" }
+		CPUUtilizationMax { controlname=CPerfLabel style="CPUUtilization" }
+		CPUCoreGraph { controlname=CIngameCPUCoreGraph visible=1}
+		CPUSpeed { controlname=CPerfLabel style="CPUSpeed" }
+		CPUSpeedMax { controlname=CPerfLabel style="CPUSpeed" }
+		CPUSpeedUnits { controlname=CPerfLabel style="CPUSpeed" }
+
+		SeperatorBack { controlname=CPerfLabel style="PerfSeperator" }
+	}
+
+	styles
+	{
+		Label
+		{
+			font-family="Motiva"
+		}
+
+		CPULabel
+		{
+			font-weight="700"
+			textcolor="218 218 100 255"
+		}
+
+		CPUUtilization
+		{
+			textcolor="220 220 220 255"
+		}
+	
+		CPUSpeed
+		{
+			textcolor="190 190 190 255"
+		}
+	}
+	
+	layout
+	{
+		place { control="SeperatorFront,CPULabel,CPUUtilization,CPUUtilizationSep,CPUUtilizationMax,CPUCoreGraph,CPUSpeed,CPUSpeedMax,CPUSpeedUnits,SeperatorBack" dir="right" align="left-center" spacing=0 }
+	}
+}

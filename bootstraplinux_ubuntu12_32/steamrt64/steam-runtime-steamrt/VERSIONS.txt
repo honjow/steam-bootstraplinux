@@ -1,0 +1,5 @@
+#Name	Version		Runtime	Runtime_Version	Comment
+depot	3c.0.20250519.130919			# Overall version number
+pressure-vessel	0.20250516.0	scout		# pressure-vessel-bin.tar.gz
+scripts	0.20250516.0			# from steam-runtime-tools
+steamrt3c	3c.0.20250519.130919	steamrt3c	3c.0.20250519.130919	# steamrt3c_platform_3c.0.20250519.130919/

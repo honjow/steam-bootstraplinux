@@ -1,0 +1,15 @@
+libxcb-keysyms.so.1 libxcb-keysyms1 #MINVER#
+ xcb_is_cursor_key@Base 0
+ xcb_is_function_key@Base 0
+ xcb_is_keypad_key@Base 0
+ xcb_is_misc_function_key@Base 0
+ xcb_is_modifier_key@Base 0
+ xcb_is_pf_key@Base 0
+ xcb_is_private_keypad_key@Base 0
+ xcb_key_press_lookup_keysym@Base 0
+ xcb_key_release_lookup_keysym@Base 0
+ xcb_key_symbols_alloc@Base 0
+ xcb_key_symbols_free@Base 0
+ xcb_key_symbols_get_keycode@Base 0
+ xcb_key_symbols_get_keysym@Base 0
+ xcb_refresh_keyboard_mapping@Base 0

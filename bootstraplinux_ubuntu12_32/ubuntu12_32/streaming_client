@@ -1,0 +1,7 @@
+#!/bin/sh
+#
+# The streaming client is now 64-bit, so set up the environment and launch it
+
+TOP=$(dirname $0)
+BIN="$TOP/../ubuntu12_64"
+LD_LIBRARY_PATH="$BIN:$LD_LIBRARY_PATH" exec "$BIN/streaming_client" "$@"

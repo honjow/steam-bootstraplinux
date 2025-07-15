@@ -1,0 +1,59 @@
+"resource/layout/ingameraminfo.layout"
+{
+	controls
+	{
+		GPULabel { controlname=CPerfLabel style="GPULabel" }
+		GPUUtilization { controlname=CPerfLabel style="GPUUtilization" }
+		GPUTempSpace { controlname=CPerfLabel style="GPUVRam" }
+		GPUTemp { controlname=CPerfLabel style="GPUVRam" }
+		GPUTempUnits { controlname=CPerfLabel style="GPUVRam" }
+		GPUTempSpaceAfter { controlname=CPerfLabel sytle="GPUVRAM" }
+		VRAMUsed { controlname=CPerfLabel style="GPUVRam" }
+		VRAMSep { controlname=CPerfLabel style="GPUVRam" }
+		VRAMMax { controlname=CPerfLabel style="GPUVRam" }
+		VRAMUnits { controlname=CPerfLabel style="GPUVRam" }
+
+		SeperatorBack { controlname=CPerfLabel style="PerfSeperator" }
+	}
+
+	styles
+	{
+		Label
+		{
+			font-family="Motiva"
+		}
+
+		GPULabel
+		{
+			font-weight="700"
+
+			textcolor="25 168 60 255"
+		}
+
+		GPUUtilization
+		{
+			textcolor="220 220 220 255"
+		}
+
+		GPUVRam
+		{
+			textcolor="190 190 190 255"
+		}
+
+		GPUVRamWarning
+		{
+			textcolor="218 100 100 255"
+		}
+		
+		GPUVRamWarningDesaturated
+		{
+			textcolor="220 220 220 255"
+		}
+
+	}
+	
+	layout
+	{
+		place { control="GPULabel,GPUUtilization,GPUTempSpace,GPUTemp,GPUTempUnits,GPUTempSpaceAfter,GPUVRAMSpace,VRAMUsed,VRAMSep,VRAMMax,VRAMUnits,SeperatorBack" dir="right" align="left-center" spacing=0 }
+	}
+}
