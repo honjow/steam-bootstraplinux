@@ -1,0 +1,35 @@
+"resource/layout/ingamepresentationfps.layout"
+{
+	controls
+	{
+		FPSLabel { controlname=CPerfLabel }
+		FPSNumber { controlname=CPerfLabel }
+		Seperator { controlname=CPerfLabel visible=0 style="PerfSeperator" }
+	}
+
+	styles
+	{
+		Label
+		{
+			font-family="Motiva"
+		}
+
+		PresentationFPSLabel
+		{
+			font-weight="700"
+
+			textcolor="218 100 100 255"
+			padding-left="3"
+		}
+
+		PresentationFPSNumber
+		{
+			textcolor="220 220 220 255"
+		}
+	}
+	
+	layout
+	{
+		place { control="FPSLabel,FPSNumber,Seperator" dir="right" align="left-center" spacing=0 }
+	}
+}

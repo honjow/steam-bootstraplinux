@@ -1,0 +1,13 @@
+drwxr-xr-x root/root         0 2025-05-16 18:03 ./
+drwxr-xr-x root/root         0 2025-05-16 18:03 ./usr/
+drwxr-xr-x root/root         0 2025-05-16 18:03 ./usr/share/
+drwxr-xr-x root/root         0 2025-05-16 18:03 ./usr/share/doc/
+drwxr-xr-x root/root         0 2025-05-16 18:03 ./usr/share/doc/libsteam-runtime-shim-libcurl4/
+-rw-r--r-- root/root      8738 2025-05-16 17:14 ./usr/share/doc/libsteam-runtime-shim-libcurl4/copyright
+-rw-r--r-- root/root     51682 2025-05-16 17:57 ./usr/share/doc/libsteam-runtime-shim-libcurl4/changelog.i386.gz
+drwxr-xr-x root/root         0 2025-05-16 18:03 ./usr/lib/
+drwxr-xr-x root/root         0 2025-05-16 18:03 ./usr/lib/i386-linux-gnu/
+-rw-r--r-- root/root      5332 2025-05-16 18:03 ./usr/lib/i386-linux-gnu/libsteam-runtime-shim-libcurl-gnutls.so.4
+-rw-r--r-- root/root      5332 2025-05-16 18:03 ./usr/lib/i386-linux-gnu/libsteam-runtime-shim-libcurl.so.4
+lrwxrwxrwx root/root         0 2025-05-16 18:03 ./usr/lib/i386-linux-gnu/libsteam-runtime-our-libcurl-gnutls.so.4 -> libcurl-gnutls.so.4
+lrwxrwxrwx root/root         0 2025-05-16 18:03 ./usr/lib/i386-linux-gnu/libsteam-runtime-our-libcurl.so.4 -> libcurl.so.4

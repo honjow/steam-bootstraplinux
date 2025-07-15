@@ -1,0 +1,17 @@
+drwxr-xr-x root/root         0 2023-09-27 13:31 ./
+drwxr-xr-x root/root         0 2023-09-27 13:31 ./usr/
+drwxr-xr-x root/root         0 2023-09-27 13:31 ./usr/share/
+drwxr-xr-x root/root         0 2023-09-27 13:31 ./usr/share/lintian/
+drwxr-xr-x root/root         0 2023-09-27 13:31 ./usr/share/lintian/overrides/
+-rw-r--r-- root/root       173 2023-09-27 13:26 ./usr/share/lintian/overrides/libsdl1.2debian
+drwxr-xr-x root/root         0 2023-09-27 13:31 ./usr/share/doc/
+drwxr-xr-x root/root         0 2023-09-27 13:31 ./usr/share/doc/libsdl1.2debian/
+-rw-r--r-- root/root      5999 2023-09-26 17:43 ./usr/share/doc/libsdl1.2debian/README.md.gz
+-rw-r--r-- root/root      6295 2023-09-27 13:26 ./usr/share/doc/libsdl1.2debian/copyright
+-rw-r--r-- root/root      4963 2023-09-27 13:30 ./usr/share/doc/libsdl1.2debian/changelog.Debian.amd64.gz
+-rw-r--r-- root/root      2210 2023-09-26 17:43 ./usr/share/doc/libsdl1.2debian/COMPATIBILITY.md.gz
+-rw-r--r-- root/root      2592 2023-09-26 17:43 ./usr/share/doc/libsdl1.2debian/HOW_TO_TEST_GAMES.md.gz
+drwxr-xr-x root/root         0 2023-09-27 13:31 ./usr/lib/
+drwxr-xr-x root/root         0 2023-09-27 13:31 ./usr/lib/x86_64-linux-gnu/
+-rw-r--r-- root/root    158504 2023-09-27 13:31 ./usr/lib/x86_64-linux-gnu/libSDL-1.2.so.1.2.68
+lrwxrwxrwx root/root         0 2023-09-27 13:31 ./usr/lib/x86_64-linux-gnu/libSDL-1.2.so.0 -> libSDL-1.2.so.1.2.68

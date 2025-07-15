@@ -1,0 +1,41 @@
+﻿"lang" {
+"Language" "hungarian" 
+"Tokens" 
+{ 
+"Steam_TellTale_EmailPrompt"	"A Telltale, a(z) %subscription% kiadója szeretné tartani veled a kapcsolatot. Kérjük, add meg e-mail-címedet az alábbiakban, és iratkozz fel a Telltale hírlevelére, amely értesít az új játékokról, bepillantást enged a fejlesztési folyamat színfalai mögé, továbbá vicceket, megfejtéseket és tippeket tartalmaz, valamint alkalmi, különleges ajánlatokat. Nem fogod megbánni!"
+
+"Steam_Football2K9_EmailPrompt"	"A SEGA, a(z) %subscription% kiadója, egy speciális kedvezménnyel szeretné megköszönni terméke megvásárlását, amely a Subside Sports üzletekben használható fel. Kérjük, add meg e-mail-címedet, hogy elküldhessük a 10% kedvezményt nyújtó kupont, amely érvényes bármely termékre, amely a Subside Sports online boltjában megvásárolható."
+
+"Steam_TwoTribes_EmailPrompt"	"Ha szeretnél kapcsolatban maradni a Two Tribes céggel, iratkozz fel hírlevelünkre. Csak add meg e-mail-címed, és mi rendszeresen tájékoztatunk az általunk készített klassz játékokról!"
+
+
+"charity_title" "Sid Meier's Civilization V"
+
+"charity_imagetext" "Viszonzás"
+
+"charity_header" "A 2K Games összesen 250 000 USD-t adományoz négy oktatási célú alapítványnak, és a pénz a felhasználók döntése alapján kerül elosztásra. Összesíteni fogjuk a vásárlók szavazatait, és a döntéseteknek megfelelően osztjuk el az összeget. Üdvözöljük egyúttal a The NVIDIA Foundation-t is, akik csatlakoztak ehhez a kezdeményezésünkhöz, további 20 000 USD-t adományozva a programnak."
+
+"charity_choice"	"Melyik jótékonysági alapítványt szeretnéd támogatni?"
+
+"charity_asia"		"Central Asia Institute"
+"charity_asia_details"	"A Central Asia Institute a csoportos oktatás népszerűsítője és támogatója Pakisztánban és Afganisztánban, különösen lányok számára. Több mint 150 iskola létrehozásánál segédkeztünk, 64000 diák számára biztosítottunk tanulási lehetőséget. Ha többet akarsz tudni a Central Asia Institute-ról vagy a Pennies for Peace-ről, keress meg minket a 406-585-7841 számon, vagy a www.ikat.org weboldalon. A Central Asia Institute és Pennies for Peace nevek a tulajdonos engedélyével kerültek felhasználásra, és nem minősülnek semmilyen termék, szolgáltatás, cég vagy személy közvetlen vagy burkolt reklámjának."
+
+"charity_schools"	"Building Schools for Africa"
+"charity_schools_details" "A Building Schools for Africa egy kicsi, humanitárius szervezet, mely úgy véli, oktatással lehet a legtöbbet segíteni a szegénység, járványok és kizsákmányolás felszámolásában. Kamerun olyan vidéki területein építünk közművesített iskolákat, és látjuk el azokat élelemtermeléshez szükséges eszközökkel és magvakkal, ahol egy földművelő család heti 1 dollárból él. Mindezt iskolánként mindössze 20 000 USD-ből meg tudjuk tenni, és mivel a saját költségeinket önerőből fedezzük, minden egyes összegyűjtött pennyt az iskolák építésére fordítunk, bárminemű levonás nélkül. Köszönjük a segítséged!"
+
+"charity_read"		"Room to Read®"
+"charity_read_details"	"A Room to Read® gyermekek millióinak életét szeretné megváltoztatni a fejlődő országokban azzal, hogy az oktatásban az írástudásra és a nemek egyenlőségének fontosságára összpontosít. Helyi közösségekkel, társszervezetekkel és kormányokkal együttműködve fejlesztjük általános iskolás gyermekek írástudását, és szoktatjuk rá őket az olvasásra, valamint gondoskodunk arról, hogy a lányok rendelkezzenek a továbbtanuláshoz szükséges képzettséggel és támogatottsággal. Tudj meg rólunk többet a www.roomtoread.org weboldalon."
+
+"charity_scholarship"	"Scholarship America®"
+"charity_scholarship_details"	"A Scholarship America® olyan nemzeti oktatásügyi szervezet, mely a diákok felsőoktatásba való bekerüléséhez, és a képzés sikeres elvégzéséhez gyűjt támogatást. Küldetésünket három alapprogram segít elérni: Dollars for Scholars®, Scholarship Management Services®, és Dreamkeepers. A Scholarship America 1958 óta több mint kétmilliárd dollár értékű oktatási támogatást juttatott több mint 1.7 millió diáknak. További információkat olvashatsz a www.scholarshipamerica.org weboldalon."
+
+"charity_footer"	"A szavazás 2010. december 31-én, EST időzóna szerint 23:59-kor zárul. Felhasználónként egy szavazat adható le. A szavazás nem minden országból lehetséges. A The NVIDIA Foundation-nel kapcsolatos további információkért látogass el ide:"
+"charity_footer_link"	"http://www.nvidia.com/object/corporate_community.html"
+
+"charity_launchgame"	"Játék indítása"
+
+
+
+
+}
+}
