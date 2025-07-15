@@ -1,0 +1,194 @@
+name: Create Release with LFS Content
+
+on:
+  push:
+    tags:
+      - 'v*'  # 触发条件：推送以v开头的tag（如v1.0.0）
+
+jobs:
+  # 准备阶段：检出代码和LFS文件
+  prepare:
+    runs-on: ubuntu-latest
+    outputs:
+      archive-name: ${{ steps.setup.outputs.archive-name }}
+      tag-name: ${{ steps.setup.outputs.tag-name }}
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        lfs: true  # 启用Git LFS
+        fetch-depth: 0  # 获取完整历史记录
+
+    - name: Download LFS files
+      run: |
+        git lfs pull
+        echo "LFS files downloaded successfully"
+
+    - name: Verify LFS files
+      run: |
+        echo "Checking LFS file sizes..."
+        ls -lh bootstraplinux_ubuntu12_32/steamclient64.dll || echo "steamclient64.dll not found"
+        ls -lh bootstraplinux_ubuntu12_32/ubuntu12_64/libcef.so || echo "libcef.so not found"
+        
+        # 验证是否为实际文件而不是指针
+        if [ -f "bootstraplinux_ubuntu12_32/steamclient64.dll" ]; then
+          file_type=$(file bootstraplinux_ubuntu12_32/steamclient64.dll)
+          echo "steamclient64.dll type: $file_type"
+          if echo "$file_type" | grep -q "ASCII text"; then
+            echo "ERROR: LFS file is still a pointer!"
+            exit 1
+          fi
+        fi
+
+    - name: Setup variables
+      id: setup
+      run: |
+        TAG_NAME=${GITHUB_REF#refs/tags/}
+        ARCHIVE_NAME="steam-bootstraplinux-${TAG_NAME}-complete"
+        echo "archive-name=${ARCHIVE_NAME}" >> $GITHUB_OUTPUT
+        echo "tag-name=${TAG_NAME}" >> $GITHUB_OUTPUT
+
+    - name: Upload source for compression
+      uses: actions/upload-artifact@v3
+      with:
+        name: source-files
+        path: bootstraplinux_ubuntu12_32/
+        retention-days: 1
+
+  # 并行压缩阶段：使用矩阵同时创建不同格式
+  compress:
+    runs-on: ubuntu-latest
+    needs: prepare
+    strategy:
+      matrix:
+        format:
+          - name: tar.gz
+            command: tar -czf
+            extension: .tar.gz
+            description: "standard compression"
+          - name: tar.xz
+            command: tar -cJf
+            extension: .tar.xz
+            description: "highest compression"
+          - name: zip
+            command: zip -r -9
+            extension: .zip
+            description: "Windows friendly"
+    
+    steps:
+    - name: Download source files
+      uses: actions/download-artifact@v3
+      with:
+        name: source-files
+        path: source/
+
+    - name: Verify directory structure
+      run: |
+        echo "Checking directory structure..."
+        ls -la source/
+        
+        # 确保不包含 bootstraplinux_ubuntu12_32 目录
+        if [ -d "source/bootstraplinux_ubuntu12_32" ]; then
+          echo "ERROR: Found bootstraplinux_ubuntu12_32 directory in source!"
+          echo "This would create nested directory in archive."
+          exit 1
+        fi
+        
+        # 确保包含期望的文件
+        if [ ! -f "source/steam.sh" ] && [ ! -f "source/steam_msg.sh" ]; then
+          echo "ERROR: Expected files (steam.sh, steam_msg.sh) not found in source!"
+          exit 1
+        fi
+        
+        echo "Directory structure verified - no nested bootstraplinux_ubuntu12_32 directory"
+
+    - name: Create ${{ matrix.format.name }} archive
+      run: |
+        cd source
+        ARCHIVE_FILE="${{ needs.prepare.outputs.archive-name }}${{ matrix.format.extension }}"
+        
+        echo "Creating ${{ matrix.format.name }} archive..."
+        if [ "${{ matrix.format.name }}" = "zip" ]; then
+          ${{ matrix.format.command }} "../${ARCHIVE_FILE}" .
+        else
+          ${{ matrix.format.command }} "../${ARCHIVE_FILE}" .
+        fi
+        
+        cd ..
+        
+        # 显示文件信息
+        echo "Created archive: ${ARCHIVE_FILE}"
+        ls -lh "${ARCHIVE_FILE}"
+        echo "Size: $(du -h ${ARCHIVE_FILE} | cut -f1)"
+
+    - name: Upload compressed archive
+      uses: actions/upload-artifact@v3
+      with:
+        name: archive-${{ matrix.format.name }}
+        path: ${{ needs.prepare.outputs.archive-name }}${{ matrix.format.extension }}
+        retention-days: 30
+
+  # 发布阶段：收集所有压缩包并创建Release
+  release:
+    runs-on: ubuntu-latest
+    needs: [prepare, compress]
+    permissions:
+      contents: write  # 需要写入权限来创建Release
+    
+    steps:
+    - name: Download all archives
+      uses: actions/download-artifact@v3
+      with:
+        path: artifacts/
+
+    - name: Collect archives
+      run: |
+        # 移动所有压缩包到当前目录
+        find artifacts/ -name "${{ needs.prepare.outputs.archive-name }}*" -type f -exec mv {} . \;
+        
+        # 显示所有文件
+        echo "All created archives:"
+        ls -lh ${{ needs.prepare.outputs.archive-name }}*
+        
+        # 显示压缩比较
+        echo "Compression comparison:"
+        for file in ${{ needs.prepare.outputs.archive-name }}*; do
+          echo "$(basename $file): $(du -h $file | cut -f1)"
+        done
+
+    - name: Generate release notes
+      run: |
+        TAG_NAME="${{ needs.prepare.outputs.tag-name }}"
+        ARCHIVE_NAME="${{ needs.prepare.outputs.archive-name }}"
+        
+        cat > release_notes.md << EOF
+        # Steam Bootstrap Linux ${TAG_NAME}
+        
+        Complete package with all LFS content included.
+        
+        ## 📦 Download Options:
+        - **tar.xz**: ~$(du -h ${ARCHIVE_NAME}.tar.xz | cut -f1) (recommended - highest compression)
+        - **tar.gz**: ~$(du -h ${ARCHIVE_NAME}.tar.gz | cut -f1) (standard compression)
+        - **zip**: ~$(du -h ${ARCHIVE_NAME}.zip | cut -f1) (Windows friendly)
+        
+        ## 🚀 Usage:
+        1. Download and extract any complete package above
+        2. Run Steam from the extracted directory
+        
+        **Note**: Source Code downloads contain only LFS pointer files. Use complete packages above instead.
+        EOF
+
+    - name: Create Release
+      uses: softprops/action-gh-release@v1
+      with:
+        tag_name: ${{ needs.prepare.outputs.tag-name }}
+        name: "Steam Bootstrap Linux ${{ needs.prepare.outputs.tag-name }}"
+        body_path: release_notes.md
+        files: |
+          ${{ needs.prepare.outputs.archive-name }}.tar.gz
+          ${{ needs.prepare.outputs.archive-name }}.tar.xz
+          ${{ needs.prepare.outputs.archive-name }}.zip
+        draft: false
+        prerelease: false
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
