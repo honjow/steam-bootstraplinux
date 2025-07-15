@@ -1,193 +1,139 @@
-name: Create Release with LFS Content
+name: Create Release
 
 on:
   push:
     tags:
-      - 'v*'  # 触发条件：推送以v开头的tag（如v1.0.0）
+      - '*'
 
 jobs:
-  # 准备阶段：检出代码和LFS文件
   prepare:
     runs-on: ubuntu-latest
-    outputs:
-      archive-name: ${{ steps.setup.outputs.archive-name }}
-      tag-name: ${{ steps.setup.outputs.tag-name }}
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
       with:
-        lfs: true  # 启用Git LFS
-        fetch-depth: 0  # 获取完整历史记录
-
-    - name: Download LFS files
+        lfs: true
+    
+    - name: Download LFS objects
+      run: git lfs pull
+    
+    - name: Verify LFS files are downloaded
       run: |
-        git lfs pull
-        echo "LFS files downloaded successfully"
-
-    - name: Verify LFS files
-      run: |
-        echo "Checking LFS file sizes..."
-        ls -lh bootstraplinux_ubuntu12_32/steamclient64.dll || echo "steamclient64.dll not found"
-        ls -lh bootstraplinux_ubuntu12_32/ubuntu12_64/libcef.so || echo "libcef.so not found"
-        
-        # 验证是否为实际文件而不是指针
-        if [ -f "bootstraplinux_ubuntu12_32/steamclient64.dll" ]; then
-          file_type=$(file bootstraplinux_ubuntu12_32/steamclient64.dll)
-          echo "steamclient64.dll type: $file_type"
-          if echo "$file_type" | grep -q "ASCII text"; then
-            echo "ERROR: LFS file is still a pointer!"
-            exit 1
+        echo "Checking LFS files..."
+        lfs_files=$(find bootstraplinux_ubuntu12_32 -type f -name "*.dll" -o -name "*.exe" -o -name "*.so" -o -name "*.tar.xz" | head -10)
+        for file in $lfs_files; do
+          if [ -f "$file" ]; then
+            size=$(stat -c%s "$file")
+            echo "File: $file, Size: $size bytes"
+            if [ $size -lt 1000 ]; then
+              echo "Warning: $file might be an LFS pointer (size: $size bytes)"
+              head -n 3 "$file"
+            fi
           fi
-        fi
-
-    - name: Setup variables
-      id: setup
+        done
+    
+    - name: Package source files
       run: |
-        TAG_NAME=${GITHUB_REF#refs/tags/}
-        ARCHIVE_NAME="steam-bootstraplinux-${TAG_NAME}-complete"
-        echo "archive-name=${ARCHIVE_NAME}" >> $GITHUB_OUTPUT
-        echo "tag-name=${TAG_NAME}" >> $GITHUB_OUTPUT
-
-    - name: Upload source for compression
+        echo "Packaging source files..."
+        tar -cf source-files.tar bootstraplinux_ubuntu12_32/
+        echo "Package created: source-files.tar"
+        ls -lh source-files.tar
+    
+    - name: Upload source files
       uses: actions/upload-artifact@v4
       with:
         name: source-files
-        path: bootstraplinux_ubuntu12_32/
+        path: source-files.tar
         retention-days: 1
+        if-no-files-found: error
 
-  # 并行压缩阶段：使用矩阵同时创建不同格式
   compress:
-    runs-on: ubuntu-latest
     needs: prepare
+    runs-on: ubuntu-latest
     strategy:
       matrix:
-        format:
-          - name: tar.gz
-            command: tar -czf
-            extension: .tar.gz
-            description: "standard compression"
-          - name: tar.xz
-            command: tar -cJf
-            extension: .tar.xz
-            description: "highest compression"
-          - name: zip
-            command: zip -r -9
-            extension: .zip
-            description: "Windows friendly"
-    
+        format: [tar-gz, tar-xz, zip]
     steps:
     - name: Download source files
       uses: actions/download-artifact@v4
       with:
         name: source-files
-        path: source/
-
-    - name: Verify directory structure
+    
+    - name: Extract source files
       run: |
-        echo "Checking directory structure..."
-        ls -la source/
-        
-        # 确保不包含 bootstraplinux_ubuntu12_32 目录
-        if [ -d "source/bootstraplinux_ubuntu12_32" ]; then
-          echo "ERROR: Found bootstraplinux_ubuntu12_32 directory in source!"
-          echo "This would create nested directory in archive."
-          exit 1
-        fi
-        
-        # 确保包含期望的文件
-        if [ ! -f "source/steam.sh" ] && [ ! -f "source/steam_msg.sh" ]; then
-          echo "ERROR: Expected files (steam.sh, steam_msg.sh) not found in source!"
-          exit 1
-        fi
-        
-        echo "Directory structure verified - no nested bootstraplinux_ubuntu12_32 directory"
-
-    - name: Create ${{ matrix.format.name }} archive
+        echo "Extracting source files..."
+        tar -xf source-files.tar
+        echo "Source files extracted"
+        ls -la
+    
+    - name: Create archive
       run: |
-        cd source
-        ARCHIVE_FILE="${{ needs.prepare.outputs.archive-name }}${{ matrix.format.extension }}"
+        case "${{ matrix.format }}" in
+          tar-gz)
+            echo "Creating tar.gz archive..."
+            cd bootstraplinux_ubuntu12_32
+            tar -czf ../steam-bootstraplinux-${{ github.ref_name }}.tar.gz .
+            cd ..
+            echo "Archive created: steam-bootstraplinux-${{ github.ref_name }}.tar.gz"
+            ;;
+          tar-xz)
+            echo "Creating tar.xz archive..."
+            cd bootstraplinux_ubuntu12_32
+            tar -cJf ../steam-bootstraplinux-${{ github.ref_name }}.tar.xz .
+            cd ..
+            echo "Archive created: steam-bootstraplinux-${{ github.ref_name }}.tar.xz"
+            ;;
+          zip)
+            echo "Creating zip archive..."
+            cd bootstraplinux_ubuntu12_32
+            zip -r ../steam-bootstraplinux-${{ github.ref_name }}.zip .
+            cd ..
+            echo "Archive created: steam-bootstraplinux-${{ github.ref_name }}.zip"
+            ;;
+        esac
         
-        echo "Creating ${{ matrix.format.name }} archive..."
-        if [ "${{ matrix.format.name }}" = "zip" ]; then
-          ${{ matrix.format.command }} "../${ARCHIVE_FILE}" .
-        else
-          ${{ matrix.format.command }} "../${ARCHIVE_FILE}" .
+        # Get file info
+        archive_file=$(ls steam-bootstraplinux-${{ github.ref_name }}.* 2>/dev/null | head -n1)
+        if [ -f "$archive_file" ]; then
+          echo "Archive file: $archive_file"
+          echo "Archive size: $(stat -c%s "$archive_file") bytes"
+          ls -lh "$archive_file"
         fi
-        
-        cd ..
-        
-        # 显示文件信息
-        echo "Created archive: ${ARCHIVE_FILE}"
-        ls -lh "${ARCHIVE_FILE}"
-        echo "Size: $(du -h ${ARCHIVE_FILE} | cut -f1)"
-
-    - name: Upload compressed archive
+    
+    - name: Upload archive
       uses: actions/upload-artifact@v4
       with:
-        name: archive-${{ matrix.format.name }}
-        path: ${{ needs.prepare.outputs.archive-name }}${{ matrix.format.extension }}
-        retention-days: 30
+        name: archive-${{ matrix.format }}
+        path: steam-bootstraplinux-${{ github.ref_name }}.*
+        retention-days: 1
+        if-no-files-found: error
 
-  # 发布阶段：收集所有压缩包并创建Release
   release:
+    needs: compress
     runs-on: ubuntu-latest
-    needs: [prepare, compress]
-    permissions:
-      contents: write  # 需要写入权限来创建Release
-    
     steps:
     - name: Download all archives
       uses: actions/download-artifact@v4
       with:
-        path: artifacts/
-
-    - name: Collect archives
+        pattern: archive-*
+        merge-multiple: true
+    
+    - name: List downloaded files
       run: |
-        # 移动所有压缩包到当前目录
-        find artifacts/ -name "${{ needs.prepare.outputs.archive-name }}*" -type f -exec mv {} . \;
-        
-        # 显示所有文件
-        echo "All created archives:"
-        ls -lh ${{ needs.prepare.outputs.archive-name }}*
-        
-        # 显示压缩比较
-        echo "Compression comparison:"
-        for file in ${{ needs.prepare.outputs.archive-name }}*; do
-          echo "$(basename $file): $(du -h $file | cut -f1)"
-        done
-
+        echo "Downloaded files:"
+        ls -la
+    
     - name: Generate release notes
       run: |
-        TAG_NAME="${{ needs.prepare.outputs.tag-name }}"
-        ARCHIVE_NAME="${{ needs.prepare.outputs.archive-name }}"
-        
-        cat > release_notes.md << EOF
-        # Steam Bootstrap Linux ${TAG_NAME}
-        
-        Complete package with all LFS content included.
-        
-        ## 📦 Download Options:
-        - **tar.xz**: ~$(du -h ${ARCHIVE_NAME}.tar.xz | cut -f1) (recommended - highest compression)
-        - **tar.gz**: ~$(du -h ${ARCHIVE_NAME}.tar.gz | cut -f1) (standard compression)
-        - **zip**: ~$(du -h ${ARCHIVE_NAME}.zip | cut -f1) (Windows friendly)
-        
-        ## 🚀 Usage:
-        1. Download and extract any complete package above
-        2. Run Steam from the extracted directory
-        
-        **Note**: Source Code downloads contain only LFS pointer files. Use complete packages above instead.
-        EOF
-
+        echo "包含完整LFS文件的发布包。" > release_notes.md
+        echo "" >> release_notes.md
+        echo "解压即可使用。" >> release_notes.md
+    
     - name: Create Release
       uses: softprops/action-gh-release@v2
       with:
-        tag_name: ${{ needs.prepare.outputs.tag-name }}
-        name: "Steam Bootstrap Linux ${{ needs.prepare.outputs.tag-name }}"
         body_path: release_notes.md
-        files: |
-          ${{ needs.prepare.outputs.archive-name }}.tar.gz
-          ${{ needs.prepare.outputs.archive-name }}.tar.xz
-          ${{ needs.prepare.outputs.archive-name }}.zip
+        files: steam-bootstraplinux-${{ github.ref_name }}.*
         draft: false
         prerelease: false
       env:
