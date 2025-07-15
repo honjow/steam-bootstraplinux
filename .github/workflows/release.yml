@@ -49,7 +49,7 @@ jobs:
         echo "tag-name=${TAG_NAME}" >> $GITHUB_OUTPUT
 
     - name: Upload source for compression
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: source-files
         path: bootstraplinux_ubuntu12_32/
@@ -77,7 +77,7 @@ jobs:
     
     steps:
     - name: Download source files
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4
       with:
         name: source-files
         path: source/
@@ -122,7 +122,7 @@ jobs:
         echo "Size: $(du -h ${ARCHIVE_FILE} | cut -f1)"
 
     - name: Upload compressed archive
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: archive-${{ matrix.format.name }}
         path: ${{ needs.prepare.outputs.archive-name }}${{ matrix.format.extension }}
@@ -137,7 +137,7 @@ jobs:
     
     steps:
     - name: Download all archives
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4
       with:
         path: artifacts/
 
@@ -179,7 +179,7 @@ jobs:
         EOF
 
     - name: Create Release
-      uses: softprops/action-gh-release@v1
+      uses: softprops/action-gh-release@v2
       with:
         tag_name: ${{ needs.prepare.outputs.tag-name }}
         name: "Steam Bootstrap Linux ${{ needs.prepare.outputs.tag-name }}"
