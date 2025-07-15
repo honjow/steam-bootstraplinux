@@ -79,7 +79,7 @@ jobs:
           tar-xz)
             echo "Creating tar.xz archive..."
             cd bootstraplinux_ubuntu12_32
-            tar -cJf ../steam-bootstraplinux-${{ github.ref_name }}.tar.xz .
+            XZ_OPT="-9 -T0" tar -cJf ../steam-bootstraplinux-${{ github.ref_name }}.tar.xz .
             cd ..
             echo "Archive created: steam-bootstraplinux-${{ github.ref_name }}.tar.xz"
             ;;
