@@ -1,0 +1,8 @@
+{
+  "file_format_version" : "1.0.1",
+  "ICD" : {
+    "library_path" : "/usr/lib/pressure-vessel/overrides/lib/x86_64-linux-gnu/vulkan/04/libvulkan_nouveau.so",
+    "api_version" : "1.4.311",
+    "library_arch" : "64"
+  }
+}

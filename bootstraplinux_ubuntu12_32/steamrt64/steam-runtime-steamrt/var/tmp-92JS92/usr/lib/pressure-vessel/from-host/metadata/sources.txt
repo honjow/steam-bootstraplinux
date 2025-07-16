@@ -1,0 +1,10 @@
+#Source	#Version
+elfutils	0.152-1ubuntu3.1
+glib2.0	2.58.3-2+deb10u6~steamrt1.1
+json-glib	1.0.2-1~steamrt1.3
+libcap2	1:2.22-1ubuntu3+steamrt1.1
+libffi	3.0.11~rc1-5+steamrt1.1ubuntu0.1
+libxau	1:1.0.6-4
+steam-runtime-tools	0.20250516.0
+waffle	1.6.1-0+steamrt1.1
+zlib	1:1.2.3.4.dfsg-3ubuntu4

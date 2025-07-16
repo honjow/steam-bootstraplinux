@@ -1,0 +1,13 @@
+PRETTY_NAME="Steam Runtime 3c (steamrt3c)"
+NAME="Steam Runtime"
+VERSION_ID="3c"
+VERSION="3c (steamrt3c)"
+VERSION_CODENAME=steamrt3c
+ID=steamrt
+ID_LIKE=debian
+HOME_URL="https://store.steampowered.com/"
+SUPPORT_URL="https://help.steampowered.com/"
+BUG_REPORT_URL="https://github.com/ValveSoftware/steam-runtime/issues"
+BUILD_ID="3c.0.20250519.130919"
+VARIANT=Platform
+VARIANT_ID="com.valvesoftware.steamruntime.platform-amd64_i386-steamrt3c"
