@@ -55,7 +55,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        format: [tar-gz, tar-xz, zip]
+        format: [tar-gz, tar-xz]
     steps:
     - name: Download source files
       uses: actions/download-artifact@v4
