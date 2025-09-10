@@ -1,0 +1,19 @@
+{
+  "file_format_version" : "1.2.1",
+  "layer" : {
+    "name" : "VK_LAYER_LS_frame_generation",
+    "type" : "GLOBAL",
+    "library_path" : "/home/gamer/.local/lib/liblsfg-vk.so",
+    "library_arch" : "64",
+    "api_version" : "1.4.313",
+    "implementation_version" : "1",
+    "description" : "Lossless Scaling frame generation layer",
+    "functions" : {
+      "vkGetDeviceProcAddr" : "layer_vkGetDeviceProcAddr",
+      "vkGetInstanceProcAddr" : "layer_vkGetInstanceProcAddr"
+    },
+    "disable_environment" : {
+      "DISABLE_LSFG" : "1"
+    }
+  }
+}

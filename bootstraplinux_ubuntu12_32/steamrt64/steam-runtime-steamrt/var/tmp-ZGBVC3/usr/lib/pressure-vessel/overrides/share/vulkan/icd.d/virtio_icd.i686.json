@@ -1,0 +1,8 @@
+{
+  "file_format_version" : "1.0.1",
+  "ICD" : {
+    "library_path" : "/run/host/usr/lib32/libvulkan_virtio.so",
+    "api_version" : "1.4.318",
+    "library_arch" : "32"
+  }
+}
