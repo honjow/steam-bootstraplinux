@@ -1,0 +1,5 @@
+libwayland-egl.so.1 libwayland-egl1 #MINVER#
+ wl_egl_window_create@Base 0
+ wl_egl_window_destroy@Base 0
+ wl_egl_window_get_attached_size@Base 0
+ wl_egl_window_resize@Base 0
