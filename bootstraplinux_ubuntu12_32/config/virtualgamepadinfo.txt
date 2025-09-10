@@ -1,0 +1,6 @@
+[slot 0]
+name=Steam Controller (HHD)
+VID=0x0f0d
+PID=0x01ab
+handle=0x00000000000000aa
+type=unknown
