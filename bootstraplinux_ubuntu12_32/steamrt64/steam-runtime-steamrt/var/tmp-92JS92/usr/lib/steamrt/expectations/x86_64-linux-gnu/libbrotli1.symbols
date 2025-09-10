@@ -1,6 +1,0 @@
-libbrotlicommon.so.1 libbrotli1 #MINVER#
-# No symbols listed here yet
-libbrotlidec.so.1 libbrotli1 #MINVER#
-# No symbols listed here yet
-libbrotlienc.so.1 libbrotli1 #MINVER#
-# No symbols listed here yet
