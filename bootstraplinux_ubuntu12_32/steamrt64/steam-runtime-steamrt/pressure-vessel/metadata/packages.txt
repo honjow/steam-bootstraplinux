@@ -13,6 +13,6 @@ libwaffle-1-0:amd64	1.6.1-0+steamrt1.1+srt1	waffle	97
 libwaffle-1-0:i386	1.6.1-0+steamrt1.1+srt1	waffle	96
 libxau6:amd64	1:1.0.6-4+srt6	libxau	58
 libxau6:i386	1:1.0.6-4+srt6	libxau	53
-pressure-vessel-relocatable	0.20250616.0	steam-runtime-tools	1536
+pressure-vessel-relocatable	0.20250718.0	steam-runtime-tools	1537
 zlib1g:amd64	1:1.2.3.4.dfsg-3ubuntu4+srt7	zlib	156
 zlib1g:i386	1:1.2.3.4.dfsg-3ubuntu4+srt7	zlib	147
